@@ -1,0 +1,25 @@
+# Course / third-party data (not redistributed)
+*.gpkg
+!outputs/*.gpkg
+data/*
+!data/README.md
+
+# QGIS project files (contain local paths) and temp files
+*.qgz
+*.qgs
+*.qgz~
+*.qgs~
+*.qgd
+*.aux.xml
+*.pgw
+*.gpkg-wal
+*.gpkg-shm
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS
+.DS_Store
+Thumbs.db
